@@ -18,6 +18,7 @@ class String
    
     count = self.split(/[.?!]/)
     count.delete("")
+    count.length
     
   end
   
